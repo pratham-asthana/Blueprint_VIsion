@@ -93,11 +93,10 @@ Blueprint_vision/
 uvicorn main:app --host 0.0.0.0 --port 10000
 ```
 
-## 👨‍💻 Author
-Pratham Asthana
-B.Tech AIML @ JIMS Engineering Management Technical Campus
-Email: prathamasthana04@gmail.com
-GitHub: https://github.com/pratham-asthana
+## Author
+Pratham Asthana  
+Email: prathamasthana04@gmail.com  
+GitHub: https://github.com/pratham-asthana  
 LinkedIn: https://www.linkedin.com/in/pratham-asthana-243133265/
 
 
