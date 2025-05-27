@@ -93,6 +93,10 @@ Blueprint_vision/
 uvicorn main:app --host 0.0.0.0 --port 10000
 ```
 
+## CURL TEST
+![CURL Fast API](CURL.png)
+![JSON OUTPUT](CURL_Output.png)
+
 ## Author
 Pratham Asthana  
 Email: prathamasthana04@gmail.com  
