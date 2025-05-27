@@ -94,7 +94,10 @@ uvicorn main:app --host 0.0.0.0 --port 10000
 ```
 
 ## CURL TEST
+### CURL Fast API
 ![CURL Fast API](CURL.png)
+
+### JSON OUTPUT
 ![JSON OUTPUT](CURL_Output.png)
 
 ## Author
