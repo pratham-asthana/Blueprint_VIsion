@@ -33,3 +33,6 @@ async def detect(file: UploadFile = File(...)):
             })
     os.remove(temp_filename)
     return JSONResponse(content={"detections": detections})
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=10000)
