@@ -1,10 +1,10 @@
-# 🏠 Blueprint Vision - YOLOv8 Object Detection API
+# Blueprint Vision - YOLOv8 Object Detection API
 
 A deep learning API that detects **doors** and **windows** from blueprint-style architectural images using **YOLOv8**, created by **Pratham Asthana**.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Model:** YOLOv8 (Ultralytics)
 - **Task:** Detect `door` and `window` in blueprint images
@@ -15,7 +15,8 @@ A deep learning API that detects **doors** and **windows** from blueprint-style 
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
+```
 Blueprint_vision/
 ├── main.py # FastAPI application
 ├── render.yaml # Render deployment config
@@ -37,7 +38,7 @@ Blueprint_vision/
 └── custom_YOLOv8FINAL3/
 └── weights/
 └── best.pt # Trained YOLOv8 model
-
+```
 ## 🛠️ Setup Instructions
 
 Follow these steps to set up and run the YOLOv8-based object detection API locally or for deployment.
@@ -67,7 +68,7 @@ pip install -r requirements.txt
 ### 4. Verify Project Structure
 
 Make sure your folder has this structure:
-
+```
 Blueprint_vision/
 ├── main.py
 ├── render.yaml
@@ -85,7 +86,7 @@ Blueprint_vision/
         └── custom_YOLOv8FINAL3/
             └── weights/
                 └── best.pt
-
+```
 ###  5. Run the FastAPI App Locally
 
 ```bash
