@@ -3,7 +3,8 @@ services:
     name: blueprint-vision
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host=0.0.0.0 --port=10000
-    envVars:
-      - key: YOLO_CONFIG_DIR
-        value: /tmp
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+    region: oregon
+    plan: free
+    branch: master
+    autoDeploy: true
