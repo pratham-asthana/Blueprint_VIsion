@@ -1,1 +1,3 @@
-https://blueprint-vision.onrender.com/
+Fast API Swagger UI(Reommended for instant use): http://127.0.0.1:8000/docs#/default/detect_detect_post
+
+Render link after deployment:  https://blueprint-vision.onrender.com/
