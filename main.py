@@ -6,6 +6,8 @@ import shutil
 import os
 import uuid
 from PIL import Image
+import numpy as np 
+import cv2  
 
 app = FastAPI()
 model = YOLO("runs/detect/custom_YOLOv8FINAL3/weights/best.pt") 
